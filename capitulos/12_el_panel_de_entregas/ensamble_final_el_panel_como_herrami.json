@@ -1,0 +1,20 @@
+{
+  "manifestVersion": 7,
+  "id": "com.studio35.delivery-panel",
+  "name": "Panel de entregas",
+  "version": "1.0.0",
+  "host": [{ "app": "PP", "minVersion": "23.0" }],
+  "entrypoints": [{
+    "type":  "panel",
+    "id":    "delivery-panel",
+    "label": { "default": "Entregas" },
+    "main":  "src/index.html"
+  }],
+  "requiredPermissions": {
+    "localFileSystem": "fullAccess",
+    "network": {
+      "domains":        "allowlist",
+      "allowedDomains": ["api.anthropic.com", "api.openai.com"]
+    }
+  }
+}

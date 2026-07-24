@@ -1,0 +1,13 @@
+{
+  "name": "mi-extension-premiere",
+  "version": "1.0.0",
+  "description": "Panel de automatización para Premiere Pro",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.0"
+  }
+}
