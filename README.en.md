@@ -1,6 +1,6 @@
 [Español](README.md) · [English](README.en.md) · [Français](README.fr.md)
 
-# Herramientas para Premiere Pro (UXP) — Book scripts
+# Herramientas para Premiere Pro — Book scripts
 
 Companion repository (Studio35). Complete scripts for each chapter live under `capitulos/`, named after the book section that explains them.
 
